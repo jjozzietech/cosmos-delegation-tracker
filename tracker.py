@@ -11,7 +11,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-BASE = Path.home() / "delegation-metrics"
+BASE = Path(__file__).resolve().parent
 HISTORY = BASE / "history.csv"
 KAVA = "/home/cosmos/go/bin/kava"
 NODE = "tcp://localhost:26657"
