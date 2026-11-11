@@ -1,5 +1,9 @@
 # cosmos-delegation-tracker
 
+> **SUPERSEDED (November 2026).** This is the original single-chain version.
+> jjozzietech no longer runs or maintains it; it was replaced in production by an
+> internal multi-chain version. Kept for reference only.
+
 hourly append-only CSV logger for Cosmos SDK validator delegation metrics.
 tracks delegator count, total bonded tokens, self-delegation vs external
 delegation, active-set rank, and active-set size over time. one row per
